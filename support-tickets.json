@@ -1,0 +1,51 @@
+{
+  "customers": [
+    {
+      "customer_id": "C101",
+      "name": "Asha",
+      "verified": true
+    }
+  ],
+
+  "orders": [
+    {
+      "order_id": "O1001",
+      "customer_id": "C101",
+      "product": "Water Heater",
+      "brand": "LG",
+      "price": 300,
+      "purchase_date": "2025-01-10",
+      "refund_days": 30
+    },
+
+    {
+      "order_id": "O1002",
+      "customer_id": "C101",
+      "product": "Water Heater",
+      "brand": "Samsung",
+      "price": 450,
+      "purchase_date": "2025-03-05",
+      "refund_days": 15
+    },
+
+    {
+      "order_id": "O1003",
+      "customer_id": "C101",
+      "product": "Water Heater",
+      "brand": "Bajaj",
+      "price": 250,
+      "purchase_date": "2025-04-02",
+      "refund_days": 20
+    },
+
+    {
+      "order_id": "O1004",
+      "customer_id": "C101",
+      "product": "Laptop",
+      "brand": "Dell",
+      "price": 1200,
+      "purchase_date": "2025-05-10",
+      "refund_days": 10
+    }
+  ]
+}
